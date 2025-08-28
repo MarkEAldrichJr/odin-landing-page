@@ -14,9 +14,12 @@ body {
     gap: 16px;
 }
 
-a {
+a, .subtext {
     text-decoration: none;
-    color: #E5E7EB
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 8px;;
 }
 
 .header, .footer{
@@ -38,6 +41,47 @@ a {
     font-weight: 900;
 }
 
+
+
+.footer {
+    display: flex;
+    flex: 0 0 64px;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+
+.image {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+}
+
+.header-center {
+    display: flex;
+}
+
+.header-subtext{
+    flex-direction: column;
+    flex:1;
+    padding: 50px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.button{
+    background-color: #3882f6;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    width: 200px;
+    padding: 8px;
+}
+
 .content{
     flex: 1;
     display: flex;
@@ -47,10 +91,20 @@ a {
     gap: 16px;
 }
 
-.footer {
+.information-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
     display: flex;
-    flex: 0 0 64px;
     justify-content: center;
     align-items: center;
-    margin-top: auto;
+    padding: 16px;
+}
+
+ul.info {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    gap: 16px;
+    padding: 16px;
 }
