@@ -57,20 +57,20 @@ a, .subtext {
     display: flex;
     flex: 1 1 50%;
     object-fit: contain;
-    margin: 16px;
-    min-width: 0px;
+    min-width: 100px;
 }
 
 .header-center {
     display: flex;
     justify-content: space-around;
     flex: 1;
+    width: 75vw;
 }
 
 .header-subtext{
     flex-direction: column;
     flex:1;
-    padding: 50px;
+    padding: 64px;
 }
 
 .hero-main-text {
@@ -79,7 +79,7 @@ a, .subtext {
     font-weight: 900;
 }
 
-.button{
+.button {
     background-color: #3882f6;
     color: white;
     font-size: 18px;
@@ -88,7 +88,7 @@ a, .subtext {
     padding: 8px;
 }
 
-.content{
+.content {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -105,6 +105,7 @@ a, .subtext {
     justify-content: center;
     align-items: center;
     padding: 16px;
+    margin: 16px;
 }
 
 ul.info {
@@ -114,16 +115,41 @@ ul.info {
     gap: 16px;
 }
 
-.info-image{
+.info-image {
     flex-basis: 100px;
 }
 
 li.info {
-    width: 200px;
+    min-width: 100px;
+    max-width: 300px;
     padding: 16px;
+    justify-content: space-around;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    width: 100vw;
+    align-items: center;
+}
+
+.quote-body {
+    width: 75vw;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-source {
+    font-weight: 900;
+}
+
 .call-box {
     background-color: #3882F6;
-    padding: 5%
+    width: 75vw;
+    margin: 32px;
 }
 
