@@ -29,10 +29,6 @@ a, .subtext {
     flex: 1 1 50%;
 }
 
-.header{
-    
-}
-
 .header-top {
     display: flex;
     align-items: center;
