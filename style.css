@@ -54,6 +54,8 @@ a, .subtext {
     flex: 1 1 50%;
     object-fit: contain;
     min-width: 100px;
+    max-width: 700px;
+    margin: 50px;;
 }
 
 .header-center {
