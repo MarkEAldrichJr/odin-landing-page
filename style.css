@@ -120,6 +120,8 @@ ul.info {
 
 .info-image {
     flex-basis: 100px;
+    outline: 8px solid #3882F6;
+    border-radius: .05rem;
 }
 
 li.info {
