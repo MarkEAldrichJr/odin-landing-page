@@ -26,7 +26,11 @@ a, .subtext {
     background: #1F2937;
     color: #F9FAF8;
     align-items: center;
-    flex: 1 1 auto;
+    flex: 1 1 50%;
+}
+
+.header{
+    
 }
 
 .header-top {
@@ -41,8 +45,6 @@ a, .subtext {
     font-weight: 900;
 }
 
-
-
 .footer {
     display: flex;
     flex: 0 0 64px;
@@ -52,13 +54,17 @@ a, .subtext {
 }
 
 .image {
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 200px;
+    display: flex;
+    flex: 1 1 50%;
+    object-fit: contain;
+    margin: 16px;
+    min-width: 0px;
 }
 
 .header-center {
     display: flex;
+    justify-content: space-around;
+    flex: 1;
 }
 
 .header-subtext{
@@ -106,5 +112,18 @@ ul.info {
     list-style: none;
     flex-direction: row;
     gap: 16px;
+}
+
+.info-image{
+    flex-basis: 100px;
+}
+
+li.info {
+    width: 200px;
     padding: 16px;
 }
+.call-box {
+    background-color: #3882F6;
+    padding: 5%
+}
+
