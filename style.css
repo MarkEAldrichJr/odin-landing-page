@@ -55,12 +55,15 @@ a, .subtext {
     object-fit: contain;
     min-width: 100px;
     max-width: 700px;
+    min-height: 100px;
+    max-height: 600px;
     margin: 50px;;
 }
 
 .header-center {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex: 1;
     width: 75vw;
 }
@@ -87,6 +90,7 @@ a, .subtext {
     padding: 8px;
     outline: 4px solid white;
     border-radius: .5rem;
+    margin: 8px;
 }
 
 .content {
@@ -120,6 +124,8 @@ ul.info {
     flex-basis: 100px;
     outline: 8px solid #3882F6;
     border-radius: .05rem;
+    max-height: 250px;
+    max-width: 300px;;
 }
 
 li.info {
